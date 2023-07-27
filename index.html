@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to My Website</title>
-    <!-- Link to the external stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,12 +12,20 @@
     <nav>
         <a href="#">Home</a> |
         <a href="#">About</a> |
+        <div class="dropdown">
+            <button class="dropbtn">Services</button>
+            <div class="dropdown-content">
+                <a href="#">Service 1</a>
+                <a href="#">Service 2</a>
+                <a href="#">Service 3</a>
+            </div>
+        </div> |
         <a href="#">Contact</a>
     </nav>
     <section>
         <h2>Welcome to our Website!</h2>
         <p>
-            This is a simple example of a homepage for a website.
+            This is a simple example of a homepage for a website with a dropdown menu.
             You can customize it to fit your needs and add more content and features.
         </p>
     </section>
